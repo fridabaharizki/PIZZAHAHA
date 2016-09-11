@@ -102,6 +102,9 @@ public class MainActivity extends AppCompatActivity {
             tvTotal.setText("Total Rp86000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
         }
 
+        if (hasil == null) {
+            tvTotal.setText("Isi Rincian Pesanan terlebih dahulu!");
+        }
 
     }
 }
