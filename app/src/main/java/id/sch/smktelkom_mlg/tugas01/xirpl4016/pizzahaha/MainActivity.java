@@ -54,6 +54,54 @@ public class MainActivity extends AppCompatActivity {
             hasil = rb.getText().toString();
         }
 
-        
+        if (rbS.isChecked() && cbSosis.isChecked()) {
+            tvTotal.setText("Total Rp42000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbS.isChecked() && cbMoza.isChecked()) {
+            tvTotal.setText("Total Rp42000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbS.isChecked() && cbBeef.isChecked()) {
+            tvTotal.setText("Total Rp42000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbS.isChecked() && cbSosis.isChecked() && cbMoza.isChecked()) {
+            tvTotal.setText("Total Rp49000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbS.isChecked() && cbSosis.isChecked() && cbBeef.isChecked()) {
+            tvTotal.setText("Total Rp49000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbS.isChecked() && cbMoza.isChecked() && cbBeef.isChecked()) {
+            tvTotal.setText("Total Rp49000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbS.isChecked() && cbSosis.isChecked() && cbMoza.isChecked() && cbBeef.isChecked()) {
+            tvTotal.setText("Total Rp56000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        }
+
+        if (rbM.isChecked() && cbSosis.isChecked()) {
+            tvTotal.setText("Total Rp62000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbM.isChecked() && cbMoza.isChecked()) {
+            tvTotal.setText("Total Rp62000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbM.isChecked() && cbBeef.isChecked()) {
+            tvTotal.setText("Total Rp62000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbM.isChecked() && cbSosis.isChecked() && cbMoza.isChecked()) {
+            tvTotal.setText("Total Rp69000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbM.isChecked() && cbSosis.isChecked() && cbBeef.isChecked()) {
+            tvTotal.setText("Total Rp69000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbM.isChecked() && cbMoza.isChecked() && cbBeef.isChecked()) {
+            tvTotal.setText("Total Rp69000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbM.isChecked() && cbSosis.isChecked() && cbMoza.isChecked() && cbBeef.isChecked()) {
+            tvTotal.setText("Total Rp76000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        }
+
+        if (rbL.isChecked() && cbSosis.isChecked()) {
+            tvTotal.setText("Total Rp72000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbL.isChecked() && cbMoza.isChecked()) {
+            tvTotal.setText("Total Rp72000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbL.isChecked() && cbBeef.isChecked()) {
+            tvTotal.setText("Total Rp72000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbL.isChecked() && cbSosis.isChecked() && cbMoza.isChecked()) {
+            tvTotal.setText("Total Rp79000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbL.isChecked() && cbSosis.isChecked() && cbBeef.isChecked()) {
+            tvTotal.setText("Total Rp79000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbL.isChecked() && cbMoza.isChecked() && cbBeef.isChecked()) {
+            tvTotal.setText("Total Rp79000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        } else if (rbL.isChecked() && cbSosis.isChecked() && cbMoza.isChecked() && cbBeef.isChecked()) {
+            tvTotal.setText("Total Rp86000,00\nTERIMAKASIH PESANAN ANDA AKAN SEGERA DIPROSES.");
+        }
+
+
     }
 }
