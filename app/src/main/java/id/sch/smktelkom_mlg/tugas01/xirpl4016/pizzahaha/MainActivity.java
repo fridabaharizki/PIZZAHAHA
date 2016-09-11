@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         cbMoza = (CheckBox) findViewById(R.id.checkBoxMoza);
         cbBeef = (CheckBox) findViewById(R.id.checkBoxBeef);
         bPesan = (Button) findViewById(R.id.buttonPesan);
-        bBatal = (Button) findViewById(R.id.buttonBatal);
         tvTotal = (TextView) findViewById(R.id.textViewTotal);
 
         bPesan.setOnClickListener(new View.OnClickListener() {
@@ -105,6 +104,7 @@ public class MainActivity extends AppCompatActivity {
         if (hasil == null) {
             tvTotal.setText("Isi Rincian Pesanan terlebih dahulu!");
         }
+
 
     }
 }
